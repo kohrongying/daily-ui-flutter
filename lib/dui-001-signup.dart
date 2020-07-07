@@ -216,6 +216,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
 
   @override
   void dispose() {
+    super.dispose();
     _emailTextController.dispose();
     _passwordTextController.dispose();
     _confirmPasswordTextController.dispose();

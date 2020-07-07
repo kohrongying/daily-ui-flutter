@@ -178,14 +178,14 @@ class _PaymentWidgetState extends State<PaymentWidget> {
 //                              borderRadius: BorderRadius.circular(80.0)),
                           child: Ink(
                             decoration: BoxDecoration(
-                                gradient: LinearGradient(
-                                  colors: [
-                                    Colors.blueAccent[700],
-                                    Colors.deepPurple
-                                  ],
-                                  begin: Alignment.centerLeft,
-                                  end: Alignment.centerRight,
-                                ),
+                              gradient: LinearGradient(
+                                colors: [
+                                  Colors.blueAccent[700],
+                                  Colors.deepPurple
+                                ],
+                                begin: Alignment.centerLeft,
+                                end: Alignment.centerRight,
+                              ),
                             ),
                             child: Padding(
                               padding: EdgeInsets.symmetric(horizontal: 36.0, vertical: 18.0),

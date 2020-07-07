@@ -2,15 +2,10 @@
 
 A new Flutter application.
 
-## Getting Started
+### Day 001 - Sign Up
+- Learnt how to use Form fields and TextEditingController
+- Used Stack to stack the colors on the left hand side
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Day 002 - Credit Card Checkout
+- New classes: Tooltip, InputFormatter, RaisedButton
