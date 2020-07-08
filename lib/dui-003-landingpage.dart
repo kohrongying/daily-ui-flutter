@@ -16,7 +16,7 @@ class CustomButton extends StatelessWidget {
     return RaisedButton(
       shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(0.0),
-        side: BorderSide(color: Theme.of(context).primaryColor)
+          side: BorderSide(color: Theme.of(context).primaryColor)
       ),
       color: Colors.transparent,
       hoverColor: Colors.blueGrey,
@@ -50,7 +50,7 @@ class LandingPageWidget extends StatelessWidget {
           child: Container(
             width: PAGE_WIDTH * 0.8,
             padding:
-                const EdgeInsets.symmetric(horizontal: 60.0, vertical: 40.0),
+            const EdgeInsets.symmetric(horizontal: 60.0, vertical: 40.0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -174,7 +174,7 @@ class _AnimatedBgWidgetState extends State<AnimatedBgWidget> {
   @override
   Widget build(BuildContext context) {
     return AnimatedContainer(
-      duration: Duration(milliseconds: 1500,),
+        duration: Duration(milliseconds: 1500,),
         decoration: new BoxDecoration(
           color: Colors.black,
           gradient: new LinearGradient(
