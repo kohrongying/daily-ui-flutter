@@ -7,15 +7,22 @@ Dev: `flutter run -d chrome`
 Test: `flutter test test/<testName>`
 
 
+## Daily UI Challenge
+There are available as pens on [CodePen](https://codepen.io/collection/nGYxNN) as well.
 ### Day 001 - Sign Up
+![Signup](images/001.png)
+
 - Learnt how to use Form fields and TextEditingController
 - Used Stack to stack the colors on the left hand side
 
 
 ### Day 002 - Credit Card Checkout
+![creditcard](images/002.png)
+
 - New classes: Tooltip, InputFormatter, RaisedButton
 
 ### Day 003 - Landing Page
+![landingpage](images/003.png)
 - Used Stack
 - New classes: AnimatedContainer, Timer, Random, ThemeData
 - [Image Credit](https://unsplash.com/photos/KkqvVpfIzrU)
@@ -23,7 +30,7 @@ Test: `flutter test test/<testName>`
 
 
 ### Day 004 - Calculator
-![/images/004.png](Calculator)
+![calculator](images/004.png)
 - Calculator logic with TDD first
     * Simplify first (don't compute long expressions, just one operator per operation)
     * Do happy path first then edge cases

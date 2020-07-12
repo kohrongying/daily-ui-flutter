@@ -174,8 +174,6 @@ class _PaymentWidgetState extends State<PaymentWidget> {
                             Scaffold.of(context).showSnackBar(
                                 SnackBar(content: Text('Sign up success!')));
                           },
-//                          shape: RoundedRectangleBorder(
-//                              borderRadius: BorderRadius.circular(80.0)),
                           child: Ink(
                             decoration: BoxDecoration(
                               gradient: LinearGradient(
