@@ -1,8 +1,6 @@
 import 'package:daily_ui/calculator.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
-
 const PAGE_HEIGHT = 600.0;
 const PAGE_WIDTH = 300.0;
 
@@ -16,17 +14,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-          brightness: Brightness.dark,
-          primaryColor: Colors.white,
-          accentColor: Colors.purpleAccent[700],
-          textTheme: TextTheme(
-              headline1: TextStyle(
-                  fontSize: 52.0,
-                  fontWeight: FontWeight.w500,
-                  color: Colors.white.withOpacity(1.0)),
-              bodyText1: TextStyle(fontSize: 18),
-              bodyText2: TextStyle(fontSize: 18.0, color: Colors.purpleAccent)),
-          ),
+        brightness: Brightness.dark,
+        primaryColor: Colors.white,
+        accentColor: Colors.purpleAccent[700],
+        textTheme: TextTheme(
+            headline1: TextStyle(
+                fontSize: 52.0,
+                fontWeight: FontWeight.w500,
+                color: Colors.white.withOpacity(1.0)),
+            bodyText1: TextStyle(fontSize: 18),
+            bodyText2: TextStyle(fontSize: 18.0, color: Colors.purpleAccent)),
+      ),
       home: Scaffold(body: Center(child: CalculatorWidget())),
       debugShowCheckedModeBanner: false,
     );
