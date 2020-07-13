@@ -20,8 +20,6 @@ class CheckoutPageWidget extends StatefulWidget {
 }
 
 class _CheckoutPageWidgetState extends State<CheckoutPageWidget> {
-  final _currentStep = 2;
-
   @override
   Widget build(BuildContext context) {
     return Container(

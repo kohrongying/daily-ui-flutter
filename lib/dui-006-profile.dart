@@ -131,7 +131,7 @@ class _ProfilePageState extends State<ProfilePage> {
           SliverFixedExtentList(
             itemExtent: 50.0,
             delegate: SliverChildBuilderDelegate(
-              (BuildContext context, int index) {
+                  (BuildContext context, int index) {
                 return Container(
                   padding: EdgeInsets.all(10.0),
                   child: Text(
@@ -145,13 +145,13 @@ class _ProfilePageState extends State<ProfilePage> {
             ),
           ),
           SliverGrid.count(
-            crossAxisCount: 3,
-            childAspectRatio: 1.2,
-            children: [
-              profileMetadataCount('posts', _profileData['posts'].length),
-              profileMetadataCount('followers', _profileData['followers']),
-              profileMetadataCount('following', _profileData['following'])
-            ]
+              crossAxisCount: 3,
+              childAspectRatio: 1.2,
+              children: [
+                profileMetadataCount('posts', _profileData['posts'].length),
+                profileMetadataCount('followers', _profileData['followers']),
+                profileMetadataCount('following', _profileData['following'])
+              ]
           ),
           SliverGrid(
             gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
@@ -161,7 +161,7 @@ class _ProfilePageState extends State<ProfilePage> {
               childAspectRatio: 1.0,
             ),
             delegate: SliverChildBuilderDelegate(
-              (BuildContext context, int index) {
+                  (BuildContext context, int index) {
                 return GestureDetector(
                   onTap: (){
                     Navigator.push(context, MaterialPageRoute(builder: (_) {

@@ -45,4 +45,7 @@ There are available as pens on [CodePen](https://codepen.io/collection/nGYxNN) a
 - Handling overflow with ellipsis
 - New Classes: GridView
 
+### Day 006
+![profile](images/006.png)
 
+- New Classes: CustomScrollView, SliverAppBar, FlexibleSpacer, SliverGrid, SliverList, Hero, DecoratedBox

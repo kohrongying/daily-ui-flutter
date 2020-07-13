@@ -4,8 +4,8 @@ import 'dart:async';
 
 void main() => runApp(MyApp());
 
-final PAGE_HEIGHT = 500.0;
-final PAGE_WIDTH = 800.0;
+const PAGE_HEIGHT = 500.0;
+const PAGE_WIDTH = 800.0;
 
 class CustomButton extends StatelessWidget {
   final String btnText;
