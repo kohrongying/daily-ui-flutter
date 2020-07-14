@@ -49,3 +49,8 @@ There are available as pens on [CodePen](https://codepen.io/collection/nGYxNN) a
 ![profile](images/006.png)
 
 - New Classes: CustomScrollView, SliverAppBar, FlexibleSpacer, SliverGrid, SliverList, Hero, DecoratedBox
+
+### Day 007
+![settings](images/007.png)
+
+- New Classes: ListView, ListTile, Toggling Dark and Light Mode
