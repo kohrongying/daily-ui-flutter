@@ -54,3 +54,8 @@ There are available as pens on [CodePen](https://codepen.io/collection/nGYxNN) a
 ![settings](images/007.png)
 
 - New Classes: ListView, ListTile, Toggling Dark and Light Mode
+
+### Day 008
+![404](images/008.png)
+
+- New Classes: FadeTransition

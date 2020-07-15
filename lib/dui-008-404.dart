@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark(),
       home: Scaffold(
-        body: NotFoundPage()
+          body: NotFoundPage()
       ),
       debugShowCheckedModeBanner: false,
     );
@@ -40,8 +40,8 @@ class _NotFoundPageState extends State<NotFoundPage> with SingleTickerProviderSt
     ); //..repeat(reverse: true);
 
     _fadeAnimation = Tween(
-      begin: 0.0,
-      end: 1.0
+        begin: 0.0,
+        end: 1.0
     ).animate(_controller);
   }
 
