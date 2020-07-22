@@ -59,3 +59,10 @@ There are available as pens on [CodePen](https://codepen.io/collection/nGYxNN) a
 ![404](images/008.png)
 
 - New Classes: FadeTransition
+
+### Day 010
+![socialshare](images/010.png)
+
+- New Classes: AnimatedPosition, AnimatedSwitcher
+
+AnimatedPosition was pretty much hardcoded though.
