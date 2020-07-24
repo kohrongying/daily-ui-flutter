@@ -66,3 +66,9 @@ There are available as pens on [CodePen](https://codepen.io/collection/nGYxNN) a
 - New Classes: AnimatedPosition, AnimatedSwitcher
 
 AnimatedPosition was pretty much hardcoded though.
+
+
+### Day 011
+![flashmessage](images/011.png)
+
+- New Classes: Dialog, Transform, SizedBox.expand

@@ -16,19 +16,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class ArticleWidget extends StatefulWidget {
-  @override
-  _ArticleWidgetState createState() => _ArticleWidgetState();
-}
-
-class _ArticleWidgetState extends State<ArticleWidget> {
-  int _count = 1; // to force animated switcher to re-render
-  bool _showShareButtons = false;
-  Icon _shareIcon;
-
-  final double _shareButtonX = 20;
-  final double _shareButtonY = 20;
-
+class ArticleWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -43,24 +31,52 @@ class _ArticleWidgetState extends State<ArticleWidget> {
                 color: Colors.green,
                 child: Text("YAY"),
                 onPressed: () {
-                  showDialog(
+                  showGeneralDialog(
+                      barrierColor: Colors.black.withOpacity(0.5),
+                      transitionBuilder: (context, a1, a2, widget) {
+                        return Transform.scale(
+                          scale: a1.value,
+                          child: Opacity(
+                            opacity: a1.value,
+                            child: Dialog(
+                              backgroundColor: Colors.green[300],
+                              child: SuccessModal(),
+                            )
+                          ),
+                        );
+                      },
+                      transitionDuration: Duration(milliseconds: 200),
+                      barrierDismissible: true,
+                      barrierLabel: '',
                       context: context,
-                      child: Dialog(
-                        backgroundColor: Colors.green[300],
-                        child: SuccessModal(),
-                      ));
+                      pageBuilder: (context, animation1, animation2) {}
+                      );
                 },
               ),
               RaisedButton(
                 color: Colors.red,
                 child: Text("NAY"),
                 onPressed: () {
-                  showDialog(
+                  showGeneralDialog(
+                      barrierColor: Colors.black.withOpacity(0.5),
+                      transitionBuilder: (context, a1, a2, widget) {
+                        return Transform.scale(
+                          scale: a1.value,
+                          child: Opacity(
+                              opacity: a1.value,
+                              child: Dialog(
+                                backgroundColor: Colors.red,
+                                child: FailureModal(),
+                              )
+                          ),
+                        );
+                      },
+                      transitionDuration: Duration(milliseconds: 200),
+                      barrierDismissible: true,
+                      barrierLabel: '',
                       context: context,
-                      child: Dialog(
-                        backgroundColor: Colors.red,
-                        child: FailureModal(),
-                      ));
+                      pageBuilder: (context, animation1, animation2) {}
+                  );
                 },
               ),
             ],
