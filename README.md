@@ -72,3 +72,9 @@ AnimatedPosition was pretty much hardcoded though.
 ![flashmessage](images/011.png)
 
 - New Classes: Dialog, Transform, SizedBox.expand
+
+
+### Day 015
+![switch](images/015.png)
+
+- New Classes: SlideTransition
