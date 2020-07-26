@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
-const PAGE_HEIGHT = 300.0;
 const PAGE_WIDTH = 300.0;
 
 class MyApp extends StatelessWidget {
@@ -49,16 +48,15 @@ class _SwitchWidgetState extends State<SwitchWidget> with SingleTickerProviderSt
 
   @override
   Widget build(BuildContext context) {
-    return AnimatedContainer(
+    return Container(
       width: PAGE_WIDTH,
-      height: PAGE_HEIGHT,
-      duration: Duration(milliseconds: 500),
+      height: PAGE_WIDTH,
       color: Colors.black,
       child: Stack(children: [
         SlideTransition(
             position: _offsetAnimation,
             child: Container(
-                height: PAGE_HEIGHT,
+                height: PAGE_WIDTH,
                 width: PAGE_WIDTH,
                 color: Colors.white
             )
