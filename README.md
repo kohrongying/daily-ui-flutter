@@ -78,3 +78,8 @@ AnimatedPosition was pretty much hardcoded though.
 ![switch](images/015.png)
 
 - New Classes: SlideTransition
+
+### Day 014
+![countdown](images/014.png)
+
+- New Classes: DateTime, Duration
